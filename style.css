@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.945)  ;
+ 
+   
+  }
+
+
+
+#menu {
+    background-color: red;
+}
+
+#menu ul{
+    background-color: red;
+    height: 50px;;
+    list-style: none;
+    padding: 0px;
+    background-color: red;
+    max-width: 800px;
+}
+
+#video{
+    display: inline-block
+}
+
+
+
+#menu ul li{
+    display: inline-block
+    background-color: red;
+    
+    
+}
+
+#menu ul li a{
+
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    float: right;
+    transition: background-color .3s
+    
+       
+}
+
+#menu ul li a:hover{
+    background-color:black;
+    
+}
+
+#menu ul li:last-child a{
+    
+    float: right;
+    
+}
+
+h1{
+    color: white;
+    
+}
+
+p{
+    color: white;
+    font-size: 15pt;
+}
+
+h2{
+    color: white;
+    border-right: 50%;
+}
+
+hr{
+    color: white;
+}
+
+#fotocapa{
+    margin-left: 30%;
+    margin-right: 50%;
+}
+
+
+.form label{
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 10px;
+    text-transform:uppercase;
+}
+
+.form input{
+    width: 40%;
+    border: 3px solid black ;
+    color: black;
+    padding: 4px;
+    margin-top: 10px;
+    font-size: ;
+    outline: none ;
+}
+
+.form textarea{
+    width: 100%;
+    border: 20px; color: red;
+    padding: 4px;
+    margin-top: 10px;
+    font-size: 15px;
+
+}
+
+.form button{
+    background: red;
+    padding: 10px 25px;
+    margin-top: 10px;
+    color:white ;
+    border: 0;
+}
+
+footer{
+    color: white;
+}
